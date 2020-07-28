@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862A0BF524CA87ED0060CBA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 862A0BF424CA87ED0060CBA3 /* AppDelegate.m */; };
+		862A0BF824CA87ED0060CBA3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 862A0BF724CA87ED0060CBA3 /* SceneDelegate.m */; };
+		862A0BFB24CA87ED0060CBA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862A0BFA24CA87ED0060CBA3 /* ViewController.m */; };
+		862A0BFE24CA87ED0060CBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862A0BFC24CA87ED0060CBA3 /* Main.storyboard */; };
+		862A0C0024CA87F20060CBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862A0BFF24CA87F20060CBA3 /* Assets.xcassets */; };
+		862A0C0324CA87F20060CBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862A0C0124CA87F20060CBA3 /* LaunchScreen.storyboard */; };
+		862A0C0624CA87F20060CBA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 862A0C0524CA87F20060CBA3 /* main.m */; };
 		86C829F324BEA5CE007F403E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C829F224BEA5CE007F403E /* AppDelegate.m */; };
 		86C829F624BEA5CE007F403E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C829F524BEA5CE007F403E /* SceneDelegate.m */; };
 		86C829F924BEA5CE007F403E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C829F824BEA5CE007F403E /* ViewController.m */; };
@@ -48,6 +55,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		862A0BF124CA87ED0060CBA3 /* 系统手势.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "系统手势.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862A0BF324CA87ED0060CBA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		862A0BF424CA87ED0060CBA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		862A0BF624CA87ED0060CBA3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		862A0BF724CA87ED0060CBA3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		862A0BF924CA87ED0060CBA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		862A0BFA24CA87ED0060CBA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		862A0BFD24CA87ED0060CBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		862A0BFF24CA87F20060CBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		862A0C0224CA87F20060CBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		862A0C0424CA87F20060CBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862A0C0524CA87F20060CBA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86C829EE24BEA5CE007F403E /* iOS-Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Tree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C829F124BEA5CE007F403E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86C829F224BEA5CE007F403E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,6 +136,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		862A0BEE24CA87ED0060CBA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86C829EB24BEA5CE007F403E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,6 +181,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		862A0BF224CA87ED0060CBA3 /* 系统手势 */ = {
+			isa = PBXGroup;
+			children = (
+				862A0BF324CA87ED0060CBA3 /* AppDelegate.h */,
+				862A0BF424CA87ED0060CBA3 /* AppDelegate.m */,
+				862A0BF624CA87ED0060CBA3 /* SceneDelegate.h */,
+				862A0BF724CA87ED0060CBA3 /* SceneDelegate.m */,
+				862A0BF924CA87ED0060CBA3 /* ViewController.h */,
+				862A0BFA24CA87ED0060CBA3 /* ViewController.m */,
+				862A0BFC24CA87ED0060CBA3 /* Main.storyboard */,
+				862A0BFF24CA87F20060CBA3 /* Assets.xcassets */,
+				862A0C0124CA87F20060CBA3 /* LaunchScreen.storyboard */,
+				862A0C0424CA87F20060CBA3 /* Info.plist */,
+				862A0C0524CA87F20060CBA3 /* main.m */,
+			);
+			path = "系统手势";
+			sourceTree = "<group>";
+		};
 		86C829E524BEA5CE007F403E = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +207,7 @@
 				86C82A2C24BEA622007F403E /* Block */,
 				86C82A4924BEACE6007F403E /* RunLoop */,
 				86C82A7424BED815007F403E /* HitTest */,
+				862A0BF224CA87ED0060CBA3 /* 系统手势 */,
 				86C829EF24BEA5CE007F403E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -175,6 +220,7 @@
 				86C82A2B24BEA622007F403E /* Block.app */,
 				86C82A4824BEACE6007F403E /* RunLoop.app */,
 				86C82A7324BED815007F403E /* HitTest.app */,
+				862A0BF124CA87ED0060CBA3 /* 系统手势.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,6 +332,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		862A0BF024CA87ED0060CBA3 /* 系统手势 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862A0C0724CA87F20060CBA3 /* Build configuration list for PBXNativeTarget "系统手势" */;
+			buildPhases = (
+				862A0BED24CA87ED0060CBA3 /* Sources */,
+				862A0BEE24CA87ED0060CBA3 /* Frameworks */,
+				862A0BEF24CA87ED0060CBA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "系统手势";
+			productName = "系统手势";
+			productReference = 862A0BF124CA87ED0060CBA3 /* 系统手势.app */;
+			productType = "com.apple.product-type.application";
+		};
 		86C829ED24BEA5CE007F403E /* iOS-Tree */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86C82A0724BEA5D0007F403E /* Build configuration list for PBXNativeTarget "iOS-Tree" */;
@@ -380,6 +443,9 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = GSNICE;
 				TargetAttributes = {
+					862A0BF024CA87ED0060CBA3 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 					86C829ED24BEA5CE007F403E = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -415,11 +481,22 @@
 				86C82A2A24BEA622007F403E /* Block */,
 				86C82A4724BEACE6007F403E /* RunLoop */,
 				86C82A7224BED815007F403E /* HitTest */,
+				862A0BF024CA87ED0060CBA3 /* 系统手势 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		862A0BEF24CA87ED0060CBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862A0C0324CA87F20060CBA3 /* LaunchScreen.storyboard in Resources */,
+				862A0C0024CA87F20060CBA3 /* Assets.xcassets in Resources */,
+				862A0BFE24CA87ED0060CBA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86C829EC24BEA5CE007F403E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,6 +550,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		862A0BED24CA87ED0060CBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862A0BFB24CA87ED0060CBA3 /* ViewController.m in Sources */,
+				862A0BF524CA87ED0060CBA3 /* AppDelegate.m in Sources */,
+				862A0C0624CA87F20060CBA3 /* main.m in Sources */,
+				862A0BF824CA87ED0060CBA3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86C829EA24BEA5CE007F403E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,6 +622,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		862A0BFC24CA87ED0060CBA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				862A0BFD24CA87ED0060CBA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		862A0C0124CA87F20060CBA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				862A0C0224CA87F20060CBA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		86C829FA24BEA5CE007F403E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -617,6 +721,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		862A0C0824CA87F20060CBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PRAC8XV5J;
+				INFOPLIST_FILE = "系统手势/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gsnice.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		862A0C0924CA87F20060CBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PRAC8XV5J;
+				INFOPLIST_FILE = "系统手势/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gsnice.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		86C82A0524BEA5D0007F403E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -902,6 +1042,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		862A0C0724CA87F20060CBA3 /* Build configuration list for PBXNativeTarget "系统手势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862A0C0824CA87F20060CBA3 /* Debug */,
+				862A0C0924CA87F20060CBA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		86C829E924BEA5CE007F403E /* Build configuration list for PBXProject "iOS-Tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
