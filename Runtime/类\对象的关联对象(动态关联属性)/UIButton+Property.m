@@ -6,7 +6,7 @@
 //  Copyright © 2020 GSNICE. All rights reserved.
 //
 
-#import "UIButton+propertyTest.h"
+#import "UIButton+Property.h"
 #import <objc/runtime.h>
 
 static char UIButtonName;

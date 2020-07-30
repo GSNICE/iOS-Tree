@@ -14,6 +14,14 @@
 		862A0C0024CA87F20060CBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862A0BFF24CA87F20060CBA3 /* Assets.xcassets */; };
 		862A0C0324CA87F20060CBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862A0C0124CA87F20060CBA3 /* LaunchScreen.storyboard */; };
 		862A0C0624CA87F20060CBA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 862A0C0524CA87F20060CBA3 /* main.m */; };
+		86BB8D5D24D2755300196C1C /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D5C24D2755300196C1C /* Cat.m */; };
+		86BB8D6024D276B300196C1C /* UIButton+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D5F24D276B300196C1C /* UIButton+Property.m */; };
+		86BB8D6324D28E5400196C1C /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6224D28E5400196C1C /* UIImage+Image.m */; };
+		86BB8D6624D28F8B00196C1C /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6524D28F8B00196C1C /* Dog.m */; };
+		86BB8D6924D297DA00196C1C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6824D297DA00196C1C /* Person.m */; };
+		86BB8D6C24D2BCA000196C1C /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6B24D2BCA000196C1C /* Man.m */; };
+		86BB8D6F24D2BD6000196C1C /* Panda.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6E24D2BD6000196C1C /* Panda.m */; };
+		86BB8D7224D2BF7A00196C1C /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D7124D2BF7A00196C1C /* Bird.m */; };
 		86C829F324BEA5CE007F403E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C829F224BEA5CE007F403E /* AppDelegate.m */; };
 		86C829F624BEA5CE007F403E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C829F524BEA5CE007F403E /* SceneDelegate.m */; };
 		86C829F924BEA5CE007F403E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C829F824BEA5CE007F403E /* ViewController.m */; };
@@ -43,7 +51,6 @@
 		86C82A5A24BEACE8007F403E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C82A5824BEACE8007F403E /* LaunchScreen.storyboard */; };
 		86C82A5D24BEACE8007F403E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C82A5C24BEACE8007F403E /* main.m */; };
 		86C82A6B24BEC87A007F403E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C82A6A24BEC87A007F403E /* Person.m */; };
-		86C82A6E24BED33A007F403E /* UIButton+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C82A6D24BED33A007F403E /* UIButton+Property.m */; };
 		86C82A7724BED815007F403E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C82A7624BED815007F403E /* AppDelegate.m */; };
 		86C82A7A24BED815007F403E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C82A7924BED815007F403E /* SceneDelegate.m */; };
 		86C82A7D24BED815007F403E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C82A7C24BED815007F403E /* ViewController.m */; };
@@ -67,6 +74,22 @@
 		862A0C0224CA87F20060CBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862A0C0424CA87F20060CBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862A0C0524CA87F20060CBA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86BB8D5B24D2755300196C1C /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		86BB8D5C24D2755300196C1C /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		86BB8D5E24D276B300196C1C /* UIButton+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Property.h"; sourceTree = "<group>"; };
+		86BB8D5F24D276B300196C1C /* UIButton+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Property.m"; sourceTree = "<group>"; };
+		86BB8D6124D28E5400196C1C /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		86BB8D6224D28E5400196C1C /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		86BB8D6424D28F8B00196C1C /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		86BB8D6524D28F8B00196C1C /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		86BB8D6724D297DA00196C1C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		86BB8D6824D297DA00196C1C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		86BB8D6A24D2BCA000196C1C /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		86BB8D6B24D2BCA000196C1C /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		86BB8D6D24D2BD6000196C1C /* Panda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Panda.h; sourceTree = "<group>"; };
+		86BB8D6E24D2BD6000196C1C /* Panda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Panda.m; sourceTree = "<group>"; };
+		86BB8D7024D2BF7A00196C1C /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		86BB8D7124D2BF7A00196C1C /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 		86C829EE24BEA5CE007F403E /* iOS-Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Tree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C829F124BEA5CE007F403E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86C829F224BEA5CE007F403E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,8 +140,6 @@
 		86C82A5C24BEACE8007F403E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86C82A6924BEC87A007F403E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		86C82A6A24BEC87A007F403E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		86C82A6C24BED33A007F403E /* UIButton+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Property.h"; sourceTree = "<group>"; };
-		86C82A6D24BED33A007F403E /* UIButton+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Property.m"; sourceTree = "<group>"; };
 		86C82A7324BED815007F403E /* HitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C82A7524BED815007F403E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86C82A7624BED815007F403E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -199,6 +220,71 @@
 			path = "系统手势";
 			sourceTree = "<group>";
 		};
+		86BB8D5124D2754100196C1C /* 消息机制 */ = {
+			isa = PBXGroup;
+			children = (
+				86BB8D5B24D2755300196C1C /* Cat.h */,
+				86BB8D5C24D2755300196C1C /* Cat.m */,
+			);
+			path = "消息机制";
+			sourceTree = "<group>";
+		};
+		86BB8D5224D2754100196C1C /* 字典转模型KVC */ = {
+			isa = PBXGroup;
+			children = (
+				86BB8D6A24D2BCA000196C1C /* Man.h */,
+				86BB8D6B24D2BCA000196C1C /* Man.m */,
+			);
+			path = "字典转模型KVC";
+			sourceTree = "<group>";
+		};
+		86BB8D5324D2754100196C1C /* 类\对象的关联对象(动态关联属性) */ = {
+			isa = PBXGroup;
+			children = (
+				86BB8D5E24D276B300196C1C /* UIButton+Property.h */,
+				86BB8D5F24D276B300196C1C /* UIButton+Property.m */,
+			);
+			path = "类\\对象的关联对象(动态关联属性)";
+			sourceTree = "<group>";
+		};
+		86BB8D5624D2754200196C1C /* 交换方法 */ = {
+			isa = PBXGroup;
+			children = (
+				86BB8D6124D28E5400196C1C /* UIImage+Image.h */,
+				86BB8D6224D28E5400196C1C /* UIImage+Image.m */,
+				86BB8D6424D28F8B00196C1C /* Dog.h */,
+				86BB8D6524D28F8B00196C1C /* Dog.m */,
+			);
+			path = "交换方法";
+			sourceTree = "<group>";
+		};
+		86BB8D5724D2754200196C1C /* 发送消息 */ = {
+			isa = PBXGroup;
+			children = (
+				86BB8D6D24D2BD6000196C1C /* Panda.h */,
+				86BB8D6E24D2BD6000196C1C /* Panda.m */,
+			);
+			path = "发送消息";
+			sourceTree = "<group>";
+		};
+		86BB8D5824D2754200196C1C /* 动态添加方法 */ = {
+			isa = PBXGroup;
+			children = (
+				86BB8D6724D297DA00196C1C /* Person.h */,
+				86BB8D6824D297DA00196C1C /* Person.m */,
+			);
+			path = "动态添加方法";
+			sourceTree = "<group>";
+		};
+		86BB8D5924D2754200196C1C /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				86BB8D7024D2BF7A00196C1C /* Bird.h */,
+				86BB8D7124D2BF7A00196C1C /* Bird.m */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
 		86C829E524BEA5CE007F403E = {
 			isa = PBXGroup;
 			children = (
@@ -252,7 +338,13 @@
 				86C82A1424BEA613007F403E /* SceneDelegate.m */,
 				86C82A1624BEA613007F403E /* ViewController.h */,
 				86C82A1724BEA613007F403E /* ViewController.m */,
-				86C82A6524BEAE09007F403E /* 关联属性 */,
+				86BB8D5824D2754200196C1C /* 动态添加方法 */,
+				86BB8D5724D2754200196C1C /* 发送消息 */,
+				86BB8D5624D2754200196C1C /* 交换方法 */,
+				86BB8D5324D2754100196C1C /* 类\对象的关联对象(动态关联属性) */,
+				86BB8D5124D2754100196C1C /* 消息机制 */,
+				86BB8D5924D2754200196C1C /* 消息转发 */,
+				86BB8D5224D2754100196C1C /* 字典转模型KVC */,
 				86C82A1924BEA613007F403E /* Main.storyboard */,
 				86C82A1C24BEA615007F403E /* Assets.xcassets */,
 				86C82A1E24BEA615007F403E /* LaunchScreen.storyboard */,
@@ -298,15 +390,6 @@
 				86C82A5C24BEACE8007F403E /* main.m */,
 			);
 			path = RunLoop;
-			sourceTree = "<group>";
-		};
-		86C82A6524BEAE09007F403E /* 关联属性 */ = {
-			isa = PBXGroup;
-			children = (
-				86C82A6C24BED33A007F403E /* UIButton+Property.h */,
-				86C82A6D24BED33A007F403E /* UIButton+Property.m */,
-			);
-			path = "关联属性";
 			sourceTree = "<group>";
 		};
 		86C82A7424BED815007F403E /* HitTest */ = {
@@ -576,10 +659,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C82A6E24BED33A007F403E /* UIButton+Property.m in Sources */,
+				86BB8D5D24D2755300196C1C /* Cat.m in Sources */,
 				86C82A1824BEA613007F403E /* ViewController.m in Sources */,
+				86BB8D7224D2BF7A00196C1C /* Bird.m in Sources */,
+				86BB8D6C24D2BCA000196C1C /* Man.m in Sources */,
+				86BB8D6624D28F8B00196C1C /* Dog.m in Sources */,
+				86BB8D6024D276B300196C1C /* UIButton+Property.m in Sources */,
 				86C82A1224BEA613007F403E /* AppDelegate.m in Sources */,
+				86BB8D6324D28E5400196C1C /* UIImage+Image.m in Sources */,
+				86BB8D6924D297DA00196C1C /* Person.m in Sources */,
 				86C82A2324BEA615007F403E /* main.m in Sources */,
+				86BB8D6F24D2BD6000196C1C /* Panda.m in Sources */,
 				86C82A1524BEA613007F403E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -907,6 +997,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PRAC8XV5J;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -924,6 +1015,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PRAC8XV5J;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
