@@ -13,8 +13,8 @@
 
 // Ivar:成员变量 以下划线开头
 // Property:属性
-+ (instancetype)modelWithDict:(NSDictionary *)dict
-{
++ (instancetype)modelWithDict:(NSDictionary *)dict {
+    //  class_copyPropertyList与class_copyIvarList区别    
     id objc = [[self alloc] init];
     
     // runtime:根据模型中属性,去字典中取出对应的value给模型属性赋值
@@ -64,6 +64,40 @@
     }
         
     return objc;
+}
+
+- (void)class_copyPropertyListAndclass_copyIvarList{
+    id classObject = objc_getClass([@"Man" UTF8String]);
+    
+    unsigned int count = 0;
+    unsigned int icount = 0;
+    
+    //  获取属性列表
+    objc_property_t *properties = class_copyPropertyList(classObject, &count);
+    //  获取成员变量列表
+    Ivar *ivars = class_copyIvarList(classObject, &icount);
+    
+    NSLog(@"Count:%d,ICount:%d",count,icount);
+    
+    for (int i = 0; i < count; i++) {
+        objc_property_t property = properties[i];
+        
+        //  获取属性名称
+        NSString *propertyName = [[NSString alloc] initWithCString:property_getName(property) encoding:NSUTF8StringEncoding];
+        NSLog(@"propertyName:%@",propertyName);
+    }
+    
+    for (int i = 0; i < icount; i++) {
+        NSString *memberName = [NSString stringWithUTF8String:ivar_getName(ivars[i])];
+        NSLog(@"ivarName:%@",memberName);
+    }
+}
+
+// 重写系统方法? 1.想给系统方法添加额外功能 2.不想要系统方法实现
+// 系统找不到就会调用这个方法,报错
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    NSLog(@"UndefinedKey: %@ Key:%@ Value:%@",self,key,value);
 }
 
 @end

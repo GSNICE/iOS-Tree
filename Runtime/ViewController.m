@@ -42,9 +42,9 @@
     //  动态添加方法
 //    [self addFanDynamically];
     //  字典转模型
-//    [self dictionaryToModel];
+    [self dictionaryToModel];
     //  消息转发
-    [self messageForwarding];
+//    [self messageForwarding];
 }
 #pragma mark - 消息机制
 - (void)messageMechanism {
@@ -152,6 +152,9 @@
     };
     Man *man2 = [Man modelWithDict:dic2];
     NSLog(@"Person2 Dic2=>Name:%@,UserID:%@,Address:%@",man2.name,man2.user_id,man2.address);
+    // ===================== class_copyPropertyList & class_copyIvarList =====================
+    Man *man3 = [[Man alloc] init];
+    [man3 class_copyPropertyListAndclass_copyIvarList];
 }
 
 #pragma mark - 消息转发

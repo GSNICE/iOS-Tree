@@ -229,13 +229,13 @@
 			path = "消息机制";
 			sourceTree = "<group>";
 		};
-		86BB8D5224D2754100196C1C /* 字典转模型KVC */ = {
+		86BB8D5224D2754100196C1C /* 字典转模型 */ = {
 			isa = PBXGroup;
 			children = (
 				86BB8D6A24D2BCA000196C1C /* Man.h */,
 				86BB8D6B24D2BCA000196C1C /* Man.m */,
 			);
-			path = "字典转模型KVC";
+			path = "字典转模型";
 			sourceTree = "<group>";
 		};
 		86BB8D5324D2754100196C1C /* 类\对象的关联对象(动态关联属性) */ = {
@@ -344,7 +344,7 @@
 				86BB8D5324D2754100196C1C /* 类\对象的关联对象(动态关联属性) */,
 				86BB8D5124D2754100196C1C /* 消息机制 */,
 				86BB8D5924D2754200196C1C /* 消息转发 */,
-				86BB8D5224D2754100196C1C /* 字典转模型KVC */,
+				86BB8D5224D2754100196C1C /* 字典转模型 */,
 				86C82A1924BEA613007F403E /* Main.storyboard */,
 				86C82A1C24BEA615007F403E /* Assets.xcassets */,
 				86C82A1E24BEA615007F403E /* LaunchScreen.storyboard */,

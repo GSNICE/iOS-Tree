@@ -42,11 +42,4 @@ void run (id self, SEL _cmd, NSNumber *number) {
     return [super resolveInstanceMethod:sel];
 }
 
-// 重写系统方法? 1.想给系统方法添加额外功能 2.不想要系统方法实现
-// 系统找不到就会调用这个方法,报错
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key
-{
-    NSLog(@"UndefinedKey: %@ Key:%@ Value:%@",self,key,value);
-}
-
 @end
